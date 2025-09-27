@@ -29,7 +29,7 @@ export GOFLAGS='-trimpath "-ldflags=-s -w" -buildvcs=false'
 # PROTON SETTINGS
 export PROTON_USE_NTSYNC=1
 export PROTON_ENABLE_WAYLAND=1
-#export DXIL_SPIRV_CONFIG=wmma_fp8_hack
+#export WAYLANDDRV_PRIMARY_MONITOR=DP-3
 #export FSR4_UPGRADE=1
 
 # MISC SETTINGS
