@@ -1,4 +1,4 @@
-this is built for Artix OpenRC!
+this is built for ![Artix Linux](https://img.shields.io/badge/OS-Artix%20Linux-blue?logo=Artix+Linux) OpenRC!
 
 
 ```bash
