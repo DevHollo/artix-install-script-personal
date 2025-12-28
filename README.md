@@ -15,7 +15,7 @@ Upon loading up the official Artix OpenRC base ISO (tested on weekly base images
 
 ```
 pacman -Sy git
-git clone --depth 1 https://github.com/rwinkhart/artix-install-script
+git clone --depth 1 https://github.com/DevHollo/artix-install-script
 cd artix-install-script
 ./install.sh
 ```
