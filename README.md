@@ -1,3 +1,5 @@
+this is built for Artix OpenRC!
+
 
 ```bash
 sudo rfkill unblock wifi
