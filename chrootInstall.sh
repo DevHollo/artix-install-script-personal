@@ -39,7 +39,7 @@ set -gx EDITOR nano
 set -gx VISUAL nano
 set -gx TZ America/Denver
 alias ll='ls -lah'
-alias update='doas pacman -Syu'
+alias update='sudo pacman -Syu'
 EOF
 
 chown -R $username:users /home/$username/.config
