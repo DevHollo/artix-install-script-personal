@@ -10,7 +10,7 @@ loadkeys "$DEFAULT_KEYMAP"
 
 echo ----------------------------------------------------------------------------------------------
 echo Hollo's Artix Install Script
-echo Last updated September 27, 2025
+echo Last updated December 27, 2025
 echo ----------------------------------------------------------------------------------------------
 echo You will be asked some questions before installation.
 echo -e "----------------------------------------------------------------------------------------------\\n"
