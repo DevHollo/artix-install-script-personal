@@ -11,13 +11,15 @@ Some major/noteworthy differences from common configurations:
 - Plasma Wayland is configured for speed and security by default (disabled Klipper, Baloo, session restore, etc.)
 
 # Usage
-Upon loading up the official Artix OpenRC base ISO (tested on weekly base images only), logging in as root, and connecting to the internet, run:
+Load the Artix Base ISO (no live) and connect to internet then run the script:
+
+**Connect to internet**
+run `sudo rc-service connmand start` then `connmanctl`. you should have a prompt that looks like this: `connmanctl>`
+then run these following commands:
+```
 
 ```
-pacman -Sy git
-git clone --depth 1 https://github.com/DevHollo/artix-install-script
-cd artix-install-script
-./install.sh
+pacman -Sy git && git clone --depth 1 https://github.com/DevHollo/artix-install-script && bash artix-install-script/install.sh
 ```
 
 After running the script, it will ask some questions about your desired configuration. Answer them and then the installation will complete automatically.
